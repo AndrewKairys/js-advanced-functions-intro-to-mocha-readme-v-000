@@ -16,5 +16,5 @@ function favoriteIceCream(flavor) {
 
 function shouting(string) {
   let s = `${string}`
-  return toUpperCase(s);
+  return s.toUpperCase();
 }
