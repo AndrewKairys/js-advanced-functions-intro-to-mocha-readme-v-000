@@ -18,3 +18,7 @@ function shouting(string) {
   let s = `${string}`
   return s.toUpperCase();
 }
+
+function roundDown(num) {
+  return num.floor();
+}
